@@ -1,0 +1,35 @@
+/*CSS MODULE EVENT*/
+
+/*Index*/
+.profile_friend{
+	margin-bottom : 5px;
+}
+
+.button_perso_users {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 15px;
+  background: #ffffff;
+  padding: 5px 15px 5px 5px;
+  border: solid #dbdbdb 2px;
+  text-decoration: none;
+  cursor: Hand;
+  height: 35px;
+}
+
+.button_perso_users:hover {
+  background: #fafafa;
+  text-decoration: none;
+}
+
+#menu_user{
+    padding: 0px 0px 5px 0px;
+    border-bottom: 1px solid silver;
+}
+
+#profil{
+    margin-top: 10px;
+}

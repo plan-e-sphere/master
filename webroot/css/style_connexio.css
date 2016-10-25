@@ -1,0 +1,25 @@
+﻿#slide1 {
+   background: url("background.jpg") center 0 no-repeat fixed;
+   border: 2px solid black;
+}
+
+#slide2 {
+   background: url("background.jpg") center 0 no-repeat fixed;
+   border: 2px solid red;
+}
+
+#slide3 {
+   background: url("background.jpg") center 0 no-repeat fixed;
+   border: 2px solid blue;
+}
+
+#slide1, #slide2, #slide3 {
+    height: 1000px;
+    padding-top: 100px;
+}
+	
+.slide_inside {
+    width: 980px;
+    margin: 0 auto;
+	border: 2px solid green;
+}

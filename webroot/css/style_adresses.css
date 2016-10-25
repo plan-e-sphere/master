@@ -1,0 +1,36 @@
+/*CSS MODULE ADRESSES*/
+
+/*Index*/
+.adresse{
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.ui-dialog-titlebar {
+    background-color: transparent;
+    width: 100%;
+    border : none;
+    border-bottom: 1px solid silver;
+    color: black;
+}
+
+.ui-dialog {
+    background-color: white;
+}
+
+.ui-dialog-buttonpane {
+    background-color: white;
+}
+
+.updateAdresse{
+    display:none;
+}
+
+.label {
+    color: black;
+}

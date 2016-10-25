@@ -1,0 +1,273 @@
+.topbar{
+	position:fixed;
+	width:100%;
+	height:auto;
+	color:var(--main-bg-color);
+	padding-top:25px;
+	padding-right:50px;
+	z-index:1;
+	transition:0.8s;
+        opacity: 1;
+        background-color: transparent;
+        padding-top: 25px;
+}
+
+.topbar_black{
+	position:fixed;
+	width:100%;
+	height:auto;
+	color:black;
+	padding-top:25px;
+	padding-right:50px;
+        opacity: 0.7;
+        background-color: white;
+        padding-top: 0;
+	z-index:1;
+	transition:0.8s;
+}
+
+.e_transition{
+	transition:0.8s;	
+}
+
+.label_black{
+	color:black;
+}
+
+.label_white{
+	color:white;
+}
+
+.btn_connexion{
+    display: inline-block;
+    margin-right:5px;
+    color: var(--main-bg-color);
+    border:3px solid var(--main-bg-color);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color:transparent;
+    height:40px;
+    font-weight: bold;
+    box-shadow: 0 3px #999;
+    text-decoration: none;
+    outline: none;
+    margin-top: 0px;
+}
+
+.btn_connexion:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+.btn_connexion:hover{
+	color:silver;
+	background-color:silver;
+	color:black;
+        border:3px solid black;
+        box-shadow: 0 3px #999;
+}
+
+.btn_connexion_black{
+    display: inline-block;
+    margin-right:5px;
+    color:black;
+    border:3px solid black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color:transparent;
+    height:40px;
+    font-weight: bold;
+    box-shadow: 0 3px #999;
+    text-decoration: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+.btn_connexion_black:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+.btn_connexion_black:hover{
+	color:silver;
+	background-color:silver;
+	color:black;
+        border:3px solid black;
+        box-shadow: 0 3px #999;
+}
+
+
+
+#title{
+	display:inline;
+	font-family: Neuropolitical;
+	font-size: 5em;
+}
+
+
+#container{
+	position:absolute;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#explain{
+	width:100%;
+}
+
+#footer{
+	width:100%;
+	height:100px;
+	background-color:#fe9400;
+	color:white;
+	text-align:center;
+}
+
+.alert-message-error p{
+	color:white;
+	width:100%;
+	background-color: #FA5858;
+}
+
+.alert-message-success p{
+	color:white;
+	background-color: #9FF781;
+}
+
+.form_connexion{
+	width:100%;
+}
+
+.form_connexion_btn{
+	margin-top:10px;
+	text-align:center;
+}
+
+.connexion_btn {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #A9A9F5;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  border: 1px solid transparent;
+}
+
+.connexion_btn:hover {
+    background-color: white;
+    color:black;
+    border: 1px solid silver;
+}
+
+.connexion_btn:active {
+    background-color: white;
+    color:black;
+    border: 1px solid silver;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.close_panel{
+	cursor: pointer;
+}
+
+#container_message_notif{
+	text-align:center;
+	margin:0;
+	position:absolute;
+	height:20px;
+	display:none;
+}
+
+#message_notif{
+	background-color:#34CC29;
+	-moz-border-radius:18px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #9FF781;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	padding:0px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px black;
+	height:25px;
+	line-height:25px;
+}
+
+.menu_connexion{
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#logo{
+    transition:0.8s;
+}
+
+/** scroll**/
+
+#slide1 {
+	background: url("../img/concert.jpg") center 0 no-repeat;
+	background-color: #000;
+	background-attachment: fixed;
+        background-size: 100%;
+	height: 1000px;
+	padding-top: 100px;
+}
+
+#slide2 {
+	background: url("../img/apero.jpg") center 0 no-repeat;
+	background-attachment: fixed;
+        background-size: 100%;
+	height: 1000px;
+	padding-top: 100px;
+}
+
+#slide3 {
+	background: #efb44c center 0 no-repeat;
+	background-attachment: fixed;
+	height: 1000px;
+	padding-top: 100px;
+}
+	
+.slide_inside {
+	background-color: rgba(255,255,255,0.6);
+    width: 1000px;
+    margin: 55px auto 0px auto;
+	padding: 0.5% 1.5% 2% 1.5%;
+	box-shadow: 0 1px 3px 2px rgba(204,204,204,0.75);
+	border: 1px solid black;
+}
+
+.explication {
+	text-align: center;
+}
+
+.explication  li{
+	display: inline-block;
+	margin: 10px 65px 0px 0px;
+	text-align: center;
+}
+
+#pgf_inside {
+	text-align: center;
+}
+
+.icons_clic {
+	text-align: center;
+	color: #fe9400;
+}
+
+#icons_orga {
+	margin: 0 20px 0 20px;
+}

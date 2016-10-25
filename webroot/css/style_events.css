@@ -1,0 +1,98 @@
+/*CSS MODULE EVENT*/
+
+/*Index*/
+.btn_events{
+	margin-top:10px;
+	margin-right:10px;
+	padding:5px;
+	display:inline-block;
+	background-color:transparent;
+}
+
+.image_events{
+	margin:auto;
+	width:100%;
+	height:115px;
+	object-fit: cover;
+	
+}
+
+.title_events{
+	font-weight:bold;
+	font-size:20px;
+}
+
+#title_future:hover{
+	cursor:pointer;
+}
+
+#title_pass:hover{
+	cursor:pointer;
+}
+
+#pass{
+	background-color:transparent;
+	display:none;
+}
+
+/*NewEvent*/
+.label{
+	color: black;
+}
+
+.bloc-form{
+	background-color: #E6E6FA;
+	border:1px solid #ECF6CE;
+}
+
+/*View*/
+.image_view_events{
+	max-width:100%;
+}
+
+.div_image_view_events{
+	text-align:center;
+}
+
+.event_item{
+    margin:5px 5px;
+    box-shadow: 5px 5px 15px #999;
+    border-radius:10px;
+}
+
+.icone_choix{
+    cursor: pointer;
+}
+
+#icone_accept_span .selected_choice{
+    color:#39E300;
+}
+
+#icone_unknow_span .selected_choice{
+    color:orange;
+}
+
+#icone_refuse_span .selected_choice{
+    color:red;
+}
+
+#icone_accept_span .selected_choice_pass{
+    color:#39E300;
+}
+
+#icone_unknow_span .selected_choice_pass{
+    color:orange;
+}
+
+#icone_refuse_span .selected_choice_pass{
+    color:red;
+}
+
+.unselected_choice{
+    color: silver;
+    border-bottom : none;
+}
+
+.unselected_choice_pass{
+    display: none;
+}

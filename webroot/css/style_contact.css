@@ -1,0 +1,87 @@
+﻿.bloc_gen
+{
+	float:none;
+	display:block;
+	width:100%;
+}
+
+.bloc_contact
+{
+	padding: 0 1.5% 2% 1.5%;
+    margin-bottom: 1.5%;
+	box-shadow: 0 1px 3px 2px rgba(204,204,204,0.75);
+}
+
+.titre_section
+{
+	display: block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 0 15px 0;
+}
+
+.titre_section::after
+{
+	background: linear-gradient(to right, #feae31,#efe457);
+    content: " ";
+    display: inline-block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    bottom: 0.5px;
+    width: 100%;
+    z-index: 0;
+}	
+
+#pgf_contact
+{
+	text-align: center;
+}
+
+#formulaire_contact
+{
+	background-color: #feae31;
+	position: relative;
+	top: 10px;
+	overflow: hidden;
+	height: 475px;
+	width: 400px;
+	margin: 0px auto;
+	padding-top:3px;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
+
+.zone_texte
+{
+	font: 14px normal normal uppercase helvetica, arial, sans-serif;
+	width: 380px;
+	height: 36px;
+	padding: 10px 10px;
+	margin: 0 0 5px 0;
+	border-radius: 3px;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #efe457;
+}
+
+.zone_texte:focus
+{
+	border-color: #000;
+}
+
+#message
+{
+	resize:none;
+	min-height: 200px;
+}
+
+#submit
+{
+	background-color: #594a41;
+	color: #fff;
+	text-shadow: #000;
+	border-radius: 3px;
+}

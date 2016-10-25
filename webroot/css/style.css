@@ -1,0 +1,285 @@
+p {
+	text-align:justify;
+}
+
+:root {
+  --main-bg-color: #FE9A2E;
+}
+
+@font-face {
+    font-family: Devil;
+    src: url("../fonts/Devil Breeze Bold.ttf");
+}
+
+@font-face {
+    font-family: stoNe;
+    src: url("../fonts/Vintage_fair.ttf");
+}
+
+@font-face {
+    font-family: Misa;
+    src: url("../fonts/13_Misa.TTF");
+}
+
+@font-face {
+    font-family: Neuropolitical;
+    src: url("../fonts/neuropolitical.ttf");
+}
+
+@font-face {
+    font-family: Automaton;
+    src: url("../fonts/Automaton.ttf");
+}
+
+@font-face {
+    font-family: Suissnord;
+    src: url("../fonts/Suissnord.otf");
+}
+
+html, body{ 
+	background-color:#fff; 
+}
+
+.e_logo{
+    font-family: Misa;
+    color:white;
+}
+
+.e_logo_black{
+    font-family: Misa;
+    color:black;
+}
+
+.white{
+	color:white;
+}
+
+.white:hover{
+	color:white;
+}
+
+.grey{
+	color:#B8B8B8;
+}
+
+.grey:hover{
+	color:#B8B8B8;
+}
+
+.grey:visited{
+	color:#B8B8B8;
+}
+
+.black{
+	color:black;
+}
+
+.orange{
+	color:orange;
+}
+
+.green{
+	color:#0ED900;
+}
+
+.red{
+	color:red;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.align-left{
+	text-align: left;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
+
+.clear{
+	clear: both;
+}
+
+.error_form{
+    color: red;
+    display: inline;
+    display: none;
+}
+
+.valid_form_border{
+    border: 1px solid #CCCCCC;
+}
+
+.error_form_border{
+    border: 2px solid red;
+}
+
+#message_alert{
+    display:none;
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:auto;
+    margin:auto;
+    z-index: 100;
+    height:50px;
+    border-radius:10px;
+    line-height: 30px;
+    padding:10px;
+    font-weight: bold;
+    box-shadow: 0 3px #999;
+    font-weight: bold;
+}
+
+#message_alert:hover{
+    cursor: pointer;
+}
+.alert-message-error{
+	color:white;
+	background-color: #FA5858;
+}
+
+.alert-message-success{
+	color:white;
+	background-color: #87D26E;
+}
+
+.photo_arrondie_grande{
+	overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:500px;
+}
+
+.photo_arrondie{
+	overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+}
+
+.photo_arrondie_petite{
+	overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:50px;
+    height:50px;
+}
+
+
+.icone_btn{
+	width:20px;
+	height:20px;
+	cursor:pointer;
+}
+
+.button_perso {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 15px;
+  background: #ffffff;
+  padding: 5px 15px 5px 5px;
+  border: solid #dbdbdb 2px;
+  text-decoration: none;
+  cursor: Hand;
+}
+
+.button_perso:hover {
+  background: #fafafa;
+  text-decoration: none;
+}
+
+.recherche_result{
+	padding: 10px 0px 10px 0px;
+	border-bottom: 1px solid silver;
+	margin-right:30px;
+}
+
+.recherche_result:hover{
+	background-color: #fafafa;
+}
+
+.recherche_result a{
+	text-decoration: none;
+	color:black;
+}
+
+
+.link{
+	display:block;
+	text-decoration:none;
+	text-align: left;
+	border-bottom: 1px solid silver;
+	padding: 5px 0px 5px 0px;
+}
+
+.link:hover{
+	background-color: #fafafa;
+	text-decoration:none;
+	cursor: pointer;
+}
+
+.link_footer{
+        color: black;
+	text-decoration:none;
+}
+.link_footer:hover{
+	text-decoration:none;
+	cursor: pointer;
+}
+
+.link_head{
+	text-decoration:none;
+}
+.link_head:hover{
+	text-decoration:none;
+	cursor: pointer;
+}
+
+/* Notifications */
+.non_lu{
+	background-color: #e0e0e0;
+}
+
+.lu{
+	background-color: white;
+}
+
+/* Evenement Fournitures*/
+.trFourniture{
+	border-bottom: 1px solid silver;
+}
+.tdFourniture{
+	padding :5px;
+}
+
+.fourniture_input{
+	width: 50px;
+}
+
+.circle {
+  display: block;
+  background: black;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  margin: 0;
+  background: radial-gradient(circle at 50px 50px, red, #000);
+}

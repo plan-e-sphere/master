@@ -1,0 +1,14 @@
+﻿#formulaire_bug
+{
+	background-color: #feae31;
+	position: relative;
+	top: 10px;
+	overflow: hidden;
+	height: 355px;
+	width: 400px;
+	margin: 0px auto;
+	padding-top:3px;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 3px;
+}

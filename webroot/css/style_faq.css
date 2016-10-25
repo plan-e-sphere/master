@@ -1,0 +1,42 @@
+/*CSS FAQ*/
+
+.contenu{
+    width: 700px; 
+    margin: auto;
+}
+
+#haut {
+	font-size: 30px;
+}
+
+.titre{
+	background-color: #c0c0c0;
+	width: 500px;
+	background-image: linear-gradient(left, #A1A1A1, #FFF);
+}
+
+.titre span{
+	font-size: 20px; 
+	color: #ffffff;
+}
+
+.question{
+	font-size: 15px;
+}
+
+.question span{
+	cursor: pointer; 
+	text-decoration: underline;
+}
+
+.rep{
+	overflow: hidden; 
+	height:0px; 
+	position:relative; 
+	width:550px;
+        transition:0.8s;
+}
+
+#rep{
+	font-size: 15px;
+}
