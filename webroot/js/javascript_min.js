@@ -1,0 +1,1 @@
+function isBissextile(i){return i%4===0&&i%100!==0||i%400===0?!0:!1}function isValidDate(i){var s=i.split(" ")[1],t=i.split(" ")[0],l=t.split("-")[2],e=t.split("-")[1],p=t.split("-")[0],n=s.split(":")[0],r=s.split(":")[1];return 1>p||p>31||1>e||e>12||0>n||n>23||0>r||r>59?!1:isBissextile(l)&&2==e&&p>29?!1:!isBissextile(l)&&2==e&&p>28?!1:(4==e||6==e||9==e||11==e)&&p>30?!1:!0}
